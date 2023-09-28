@@ -2,7 +2,17 @@
 Project:  Coming Soon PDM
 -------------------------------------------------------------------*/
 
-
+/*//////////////////////////////////////////////////////////////////
+[ container ]*/
+.fullscreen-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: fixed; /* This ensures it's fullscreen even if the user scrolls */
+    top: 0;
+    left: 0;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
